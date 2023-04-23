@@ -1,0 +1,241 @@
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    list-style: none;
+}
+
+.container span {
+    color: #2196F3;
+
+}
+
+.container h2 {
+    color:black;
+    width: 145px;
+    height: 31px;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.links a {
+    display: flex;
+    margin: 13px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+}
+
+.links a:hover {
+    color: #2196F3;
+}
+
+.header_right {
+    margin: 26px;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+.header_right {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header_right a:hover {
+    color:orange;
+}
+
+.buy {
+    background-color: #2F303A;
+    width: 1920px;
+    height: 600px;
+}
+
+.buy h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.buy h1 {
+    text-align: center;
+    padding: 100px;
+}
+
+.buy button {
+    display: flex;
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.buy button {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.buy button:hover {
+    cursor: pointer;
+    color: orange;
+}
+
+.about ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 95px;
+
+}
+
+.work h2 {
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+
+.work ul {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+.work img {
+    width: 370px;
+    height: 294px;
+    padding: 30px;
+}
+
+.ourteam {
+    background-color:#F5F4FA;
+    width: 1920px;
+    height: 648px;
+}
+
+
+.ourteam h2 {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.ourteam ul {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.footer {
+    background-color: #2F303A;
+}
+
+.footer span {
+    color: #2196F3;
+}
+
+.footer h4 {
+    color: white;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.footer h5 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF;
+    
+}
+
+.footer a {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
